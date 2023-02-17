@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game</title>
+	<link rel='stylesheet' href='main.css' />
+</head>
+
+<body>
+	<div class="container" id='container'>
+		<div class="time" id="time">Time: 10</div>
+		<div class="disp" id='disp'></div>
+		<div class="score" id='score'></div>
+		<button class="btn" type='button' id='true' onclick='choose_res("true")'>Đúng</button>
+		<button class="btn" type='button' id='false' onclick='choose_res("false")'>Sai</button>
+		<div class="result_disp" id="result_disp"></div>
+		<button class="btn" type='button' id='reset' onclick='reset()'>Chơi lại</button>
+	</div>
+	<script src='./main.js'></script>
+</body>
+
+</html>
